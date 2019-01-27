@@ -1,0 +1,12 @@
+<div style="text-align:center">
+  <!-- creo tres instancias usando el selector app-dado -->
+  <app-dado valor="{{valor1}}"></app-dado>
+  <app-dado valor="{{valor2}}"></app-dado>
+  <app-dado valor="{{valor3}}"></app-dado>
+  <hr>
+  <!-- asocio el evento click al boton tirar -->
+  <button (click)="tirar()">Tirar</button>  
+  <hr>
+  <!-- uso interpolacion -->
+  <p>Resultado:{{resultado}}</p>
+</div>
